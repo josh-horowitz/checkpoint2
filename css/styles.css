@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    background-color: yellow;
+}
+
 img {
     border: 3px solid black;
     margin: 15px;
@@ -30,5 +34,13 @@ img {
 }
 
 img:hover {
-    box-shadow: 10px 10px #376f70;
+    box-shadow: 10px 10px dodgerblue;
+}
+
+.skip {
+    color: black;
+}
+
+.skip:hover {
+    background-color: greenyellow;
 }
